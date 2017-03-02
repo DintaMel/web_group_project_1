@@ -1,6 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Kat's Constume Shop</title>
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow:400,700|PT+Serif:400,700" rel="stylesheet">
     <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
 
     <link href='./assets/css/index.css' media='all' rel='stylesheet'>
@@ -8,47 +11,97 @@
 
   <body>
     <nav>
-      Kat's Costume Shop
+      <h1>Kat's Costume Shop</h1>
+      <div id='nav-links'>
+        <p>About</p>
+        <p>Contact</p>
+      </div>
     </nav>
+    <picture>
+      <source class='mobile-image' srcset="./assets/images/kats-hero-mobile.jpg" media="(max-width: 450px)">
+      <source srcset= "./assets/images/kats-hero.jpg">
+      <img id="main-cat" src="./assets/images/kats-hero.jpg" alt="cat image">
+    </picture>
     <div class=splash>
     </div>
 
     <div class='main'>
-      Get some serious cat-titude
-      Kat's Costume Shop is your one stop shop to finding the
-      best of the best cat costumes and apparel. We offer a wide
-      variety of hats, sweaters, shirts, masks, sunglasses, onesies,
-      capes, socks and booties. Custom orders are available upon
-      request. Just stop by the store or call and ask for Mavis.
+      <div id='store-background'>
+        <div id='intro'>
+          <h1>Get some serious Cat-titude</h1>
+          <h3>
+            <p>Kat's Costume Shop is your one stop shop to finding the
+            best of the best cat costumes and apparel. We offer a wide
+            variety of hats, sweaters, shirts, masks, sunglasses, onesies,
+            capes, socks and booties. Custom orders are available upon
+            request. Just stop by the store or call and ask for Mavis.
+            </p>
+          </h3>
+        </div>
 
-      About Kat
-      Kat is the ultimate cat lady you've always dreamed you could
-      be. Never has a Halloween gone by where her twelve cats weren't
-      all dressed to impress. Five years ago, she decided to open
-      Kat's Costume Shop to share her passion with the world.
+        <div class='double-box'>
+          <div class="about" id="kat">
+            <h2>About Kat</h2>
+            <p>
+              Kat is the ultimate cat lady you've always dreamed you could
+              be. Never has a Halloween gone by where her twelve cats weren't
+              all dressed to impress. Five years ago, she decided to open
+              Kat's Costume Shop to share her passion with the world.
+            </p>
+          </div>
 
-      About Mavis
-      Mavis has been designing custom clothes for her three
-      cats since she was fifteen years old. She loves working on
-      custom orders. Her cats are often roaming freely throughout
-      the store and modeling the latest trends.
+          <div class="about" id="mavis">
+            <h2>About Mavis</h2>
+            <p>
+              Mavis has been designing custom clothes for her three
+              cats since she was fifteen years old. She loves working on
+              custom orders. Her cats are often roaming freely throughout
+              the store and modeling the latest trends.
+            </p>
+          </div>
+        </div>
+        <div class="cat-pic-div">
+          <img class="cool-katz-img" id='cool-kat-img-1' src="./assets/images/kats-cat1.jpg" alt="Kat's first cat">
+          <img class="cool-katz-img" id='cool-kat-img-2' src="./assets/images/kats-cat2.jpg" alt="Kat's second cat">
+          <img class="cool-katz-img" src="./assets/images/kats-cat3.jpg" alt="Kat's third cat">
+        </div>
+      </div>
 
-      Get In Touch
-      Business Hours
-      Monday-Friday 11am - 8pm
-      Saturday 11am - 4pm
-      Sunday 12pm - 4pm
+        <div id='contact-info'>
+          <h1>Get In Touch</h1>
+          <div class='contact-detail-box-container'>
+            <div class='contact-detail-box' id="hours">
+              <h2>Business Hours</h2>
+              <h3><span class= 'contact-labels'>Monday-Friday</span> 11am - 8pm
+              <br>
+              <span class= 'contact-labels'>Saturday</span> 11am - 4pm
+              <br>
+              <span class= 'contact-labels'>Sunday</span> 12pm - 4pm</h3>
+            </div>
 
-      Contact Info
-      Phone
-      (123) 456-7890
+          <div class='contact-detail-box'>
+            <h2>Contact Info</h2>
+            <h3>
 
-      Address
-      1234 Imaginary Ln.
-      St. Louis, MO 63101
+                <span class= 'contact-labels'>Phone</span> (123) 456-7890<br>
+                <span id='address-label' class= 'contact-labels'>Address</span>
+                <span id='address'>
+                  <a>1234 Imaginary Ln. <br>
+                  St. Louis, MO 63101</a>
+                </span>
+
+            </h3>
+          </div>
+        </div>
+      </div>
+      <picture>
+        <source class='mobile-image' srcset='./assets/images/kats-map-mobile.jpg' media="(max-width: 450)"</source>
+        <source srcset='./assets/images/kats-map.jpg' </source>
+        <img id='map-pic' src='./assets/images/kats-map.jpg' alt="Map of Kat's Store">
+      </picture>
     </div>
     <footer>
-      Kat's Costume Shop
+      <h1>Kat's Costume Shop</h1>
     </footer>
   </body>
 </html>
