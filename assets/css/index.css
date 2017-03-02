@@ -217,17 +217,6 @@ footer{
 
 }
 
-@media(max-width: 450px){
-
-}
-
-/* On devices wider than 660px */
-@media(min-width: 660px) {
-}
-
-/* On devices wider than 940px */
-@media(min-width: 940px) {
-}
 
 /*font-family: 'PT Sans', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif;
